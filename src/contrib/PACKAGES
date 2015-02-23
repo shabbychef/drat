@@ -4,6 +4,24 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: MarkowitzR
+Version: 0.1502
+Depends: R (>= 3.0.2)
+Imports: matrixcalc, sandwich, gtools
+Suggests: SharpeR, testthat, knitr
+License: LGPL-3
+MD5sum: d38b5cd7508644f4282670f2501bbee8
+NeedsCompilation: no
+
+Package: PDQutils
+Version: 0.1.0.9003
+Depends: R (>= 3.0.2)
+Imports: orthopolynom, moments
+Suggests: ggplot2, reshape2, testthat, knitr
+License: LGPL-3
+MD5sum: cfb08a21f2bb8c75efd30296202a3f30
+NeedsCompilation: no
+
 Package: RcppAPT
 Version: 0.0.1
 Imports: Rcpp (>= 0.11.0)
@@ -12,4 +30,21 @@ License: GPL (>= 2)
 OS_type: unix
 MD5sum: 3c26df7bd933d88b5f81280754ff1f11
 NeedsCompilation: yes
+
+Package: sadists
+Version: 0.0.0.9200
+Depends: R (>= 3.0.2), hypergeo, PDQutils, orthopolynom
+Suggests: testthat, knitr
+License: LGPL-3
+MD5sum: b465066b1e43485c61a0ebb3c3872f57
+NeedsCompilation: no
+
+Package: SharpeR
+Version: 0.1501
+Depends: R (>= 3.0.0)
+Imports: matrixcalc
+Suggests: xtable, xts, quantmod, MASS, TTR, testthat, sandwich, knitr
+License: LGPL-3
+MD5sum: db186e0f7ad0baae976a904d10c00b16
+NeedsCompilation: no
 
