@@ -32,12 +32,12 @@ MD5sum: 3c26df7bd933d88b5f81280754ff1f11
 NeedsCompilation: yes
 
 Package: sadists
-Version: 0.1.0.9900
+Version: 0.2.0
 Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
 Suggests: testthat, ggplot2, xtable, knitr
 License: LGPL-3
-MD5sum: 3923d9fda8a9c7ccb8149601e241f890
+MD5sum: 2245c264073c2b5a41f0dcab42e872a1
 NeedsCompilation: no
 
 Package: SharpeR
