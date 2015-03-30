@@ -37,7 +37,7 @@ Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
 Suggests: testthat, ggplot2, xtable, knitr
 License: LGPL-3
-MD5sum: 2245c264073c2b5a41f0dcab42e872a1
+MD5sum: bfdadab4a1d408dc73b3e6060052db7c
 NeedsCompilation: no
 
 Package: SharpeR
