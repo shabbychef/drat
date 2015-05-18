@@ -5,6 +5,12 @@ OS_type: unix
 MD5sum: 91bac50a135bfc804958ec1ed5273cfc
 NeedsCompilation: yes
 
+Package: Defaults
+Version: 1.1-1
+License: GPL (>= 2)
+MD5sum: 5aeb213a9f84ea1e3c570660d6ee440d
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.1.2
 License: GPL (>= 2)
