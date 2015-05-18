@@ -4,6 +4,14 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: h5r
+Version: 1.4.7
+Depends: R (>= 2.10.0), methods
+Imports: utils, methods
+License: LGPL
+MD5sum: cba9662fa0bbe9ce0b81c497ec9e09c3
+NeedsCompilation: yes
+
 Package: MarkowitzR
 Version: 0.1502
 Depends: R (>= 3.0.2)
