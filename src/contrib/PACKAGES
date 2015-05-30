@@ -1,3 +1,16 @@
+Package: colorout
+Version: 1.1-0
+License: GPL (>= 2)
+OS_type: unix
+MD5sum: 91bac50a135bfc804958ec1ed5273cfc
+NeedsCompilation: yes
+
+Package: Defaults
+Version: 1.1-1
+License: GPL (>= 2)
+MD5sum: 5aeb213a9f84ea1e3c570660d6ee440d
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.1.2
 License: GPL (>= 2)
@@ -10,6 +23,14 @@ Depends: R (>= 3.0.0), ggplot2, grid
 License: MIT License
 MD5sum: cf6b134626ba7eb99208f6fab998c792
 NeedsCompilation: no
+
+Package: h5r
+Version: 1.4.7
+Depends: R (>= 2.10.0), methods
+Imports: utils, methods
+License: LGPL
+MD5sum: cba9662fa0bbe9ce0b81c497ec9e09c3
+NeedsCompilation: yes
 
 Package: MarkowitzR
 Version: 0.1502
@@ -39,12 +60,12 @@ MD5sum: 3c26df7bd933d88b5f81280754ff1f11
 NeedsCompilation: yes
 
 Package: sadists
-Version: 0.1.0.9502
+Version: 0.2.0
 Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
 Suggests: testthat, ggplot2, xtable, knitr
 License: LGPL-3
-MD5sum: b6bb77281a9dbbbddbe992579e51e29a
+MD5sum: bfdadab4a1d408dc73b3e6060052db7c
 NeedsCompilation: no
 
 Package: SharpeR
@@ -54,5 +75,13 @@ Imports: matrixcalc
 Suggests: xtable, xts, quantmod, MASS, TTR, testthat, sandwich, knitr
 License: LGPL-3
 MD5sum: db186e0f7ad0baae976a904d10c00b16
+NeedsCompilation: no
+
+Package: wesanderson
+Version: 0.3.3.99
+Depends: R (>= 3.0)
+Suggests: ggplot2
+License: MIT + file LICENSE
+MD5sum: c807dd0cad6ac01fd479335b95fcff5b
 NeedsCompilation: no
 
