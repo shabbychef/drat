@@ -4,6 +4,13 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: ggthemr
+Version: 1.0.0
+Depends: R (>= 3.0.0), ggplot2, grid
+License: MIT License
+MD5sum: cf6b134626ba7eb99208f6fab998c792
+NeedsCompilation: no
+
 Package: MarkowitzR
 Version: 0.1502
 Depends: R (>= 3.0.2)
