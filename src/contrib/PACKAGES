@@ -17,6 +17,17 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: ggfortify
+Version: 0.0.3
+Depends: methods, grid, scales, proto, ggplot2
+Imports: dplyr, tidyr, gridExtra
+Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS,
+        knitr, MASS, MSwM, nlme, strucchange, survival, timeSeries,
+        tseries, vars, xts, zoo
+License: GPL-2
+MD5sum: 9c7869e25c9511d0f53092fc1d6f2b18
+NeedsCompilation: no
+
 Package: ggthemr
 Version: 1.0.0
 Depends: R (>= 3.0.0), ggplot2, grid
