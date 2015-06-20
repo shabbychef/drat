@@ -88,13 +88,13 @@ MD5sum: 0d0a7ac6731743c0d12b03eff4f4dd96
 NeedsCompilation: no
 
 Package: SharpeR
-Version: 1.0.0
+Version: 1.0.0.5000
 Depends: R (>= 3.0.0)
 Imports: matrixcalc, sadists (>= 0.2.0)
 Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat,
         sandwich, knitr
 License: LGPL-3
-MD5sum: e582a77aafaca1c60755951a5b8ddafd
+MD5sum: 129403c346b66357a42d70892bfd46e1
 NeedsCompilation: no
 
 Package: shinyTable
