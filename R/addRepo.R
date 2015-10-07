@@ -20,10 +20,20 @@
 ##' which a \sQuote{drat} archive is to be added.
 ##' @param alturl Alternative repo specification with a complete url
 ##' string. If \sQuote{alturl} is provided, a single \sQuote{account}
-##' must be provided as well.
+##' must be provided as well.  For file-based access, the URL format
+##' has to follow the \code{file:/some/path/} format starting with
+##' \sQuote{file} followed by a single colon.
 ##' @param ... For the aliases variant, a catch-all collection of
 ##' parameters.
 ##' @return The altered set of repositories
+##' @examples
+##' \dontrun{
+##'   addRepo("drat")                            # adds GitHub repo via default URL
+##'   addRepo(c("eddelbuettel", "ghrr"))         # ditto but adds two repos at once
+##'
+##'   addRepo("LocalRepo", "file:/nas/R/repo")   # adds local file-based repo,
+##'                                              # assumes you can read /nas/R/repo
+##' }
 ##' @author Dirk Eddelbuettel
 addRepo <- function(account, alturl) {
     r <- getOption("repos")
@@ -32,6 +42,11 @@ addRepo <- function(account, alturl) {
             r[acct] <- paste0("http://", acct, ".github.io/drat/")
         }
     } else if (!missing(account) && !missing(alturl)) {
+        if (.Platform$OS.type == "windows") {
+            if (grepl(' ', alturl, fixed=TRUE)) {
+                stop("The path '", alturl, "' contains spaces which is not permitted.", call.=FALSE)
+            }
+        }
         r[account] <- alturl
     } else {
         stop("Please provide either 'account' (and if desired 'alturl').", call.=FALSE)

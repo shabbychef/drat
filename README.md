@@ -1,23 +1,24 @@
-## drat [![Build Status](https://travis-ci.org/eddelbuettel/drat.png)](https://travis-ci.org/eddelbuettel/drat) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html)
+## drat [![Build Status](https://travis-ci.org/eddelbuettel/drat.svg)](https://travis-ci.org/eddelbuettel/drat) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) [![CRAN](http://www.r-pkg.org/badges/version/drat)](http://cran.rstudio.com/package=drat) [![Downloads](http://cranlogs.r-pkg.org/badges/drat?color=brightgreen)](http://www.r-pkg.org/pkg/drat)
 
 Drat R Archive Template
 
 ### Background
 
 The R package ecosystem is one of the cornerstones of the success seen by R.
-As of this writing, over 6200 packages are on [CRAN](http://cran.r-project.org),
-several hundred more at [BioConductor](http://www.bioconductor.org) and at
-[OmegaHat](http://www.omegahat.org).
+As of this writing, almost 7000 packages are on [CRAN](http://cran.r-project.org),
+with about one thousand more at [BioConductor](http://www.bioconductor.org) and
+probably another hundred at [OmegaHat](http://www.omegahat.org).
 
 Support for multiple repositories is built deeply into R; mostly via the
 (default) package `utils`. The
 [`update.packages`](http://www.rdocumentation.org/packages/utils/functions/update.packages)
-function (along with several others from the `utils` package) can used with
+function (along with several others from the `utils` package) can be used with
 ease for these three default repositories as well as many others. But it
 seemed that support for _simple creation and use_ of local repositories was
 missing.
 
-Drat tries to help here and supports two principal modes:
+[Drat](http://dirk.eddelbuettel.com/code/drat.html) tries to help here and supports two principal modes:
+
 - *GitHub* by leveraging `gh-pages`
 - *Other repos* by using other storage where you can write and provide html access
 
@@ -25,37 +26,29 @@ See the next section about to get started, the package documentation, the
 [drat package page](http://dirk.eddelbuettel.com/code/drat.html) or the
 [blog section on drat](http://dirk.eddelbuettel.com/blog/code/drat/) for more.
 
-### Getting Started
+### Installation
 
 You can install the package from [CRAN](http://cran.r-project.org) via the
-standard `install.packages("drat")`.  Alternatively, for a first
-installation, you can also do
+standard `install.packages("drat")`.  Alternatively,  you can also do
 
 ```{.r}
 install.packages("drat", repos="http://eddelbuettel.github.io/drat")
 ``` 
 
-to install directly from the drat repository.  After either initial
-installation, you can add line such as
+to install directly from the drat repository. 
 
-```{.r}
-drat:::add("eddelbuettel")
-```
+### Getting Started
 
-to your session or startup files (see `help(Startup)`) and use
-`update.packages()` as usual---also reflection the new drat archive.
+See the vignettes 
 
-Package insertion into a repo then works by passing the package tarball
-filename as an argument to `insertPackage()` or its shorthand variant:
+- [Drat FAQ](http://eddelbuettel.github.io/drat/DratFAQ.html), 
+- [Drat for Package Authors](http://eddelbuettel.github.io/drat/DratForPackageAuthors.html), 
+- [Drat for Package Users](http://eddelbuettel.github.io/drat/DratForPackageUsers.html)
+- [Why Drat?](http://eddelbuettel.github.io/drat/WhyDrat.html)
+- [Drat Lightning Talk at useR!2015](http://dirk.eddelbuettel.com/papers/useR2015_drat.pdf)
 
-```{.r}
-drat:::insert("drat_0.0.1.tar.gz")
-```
-
-You can now add, commit and push the new version. A somewhat experimental
-option also exists for the `insertPackage()` aka `drat:::insert()` function.
-
-The package documentation provides more detils; the
+for the FAQ, two principal uses cases, basic motivation and an overview / introduction.
+The package documentation provides more details.  The
 [drat package page](http://dirk.eddelbuettel.com/code/drat.html) has a longer
 tutorial, and the
 [blog section on drat](http://dirk.eddelbuettel.com/blog/code/drat/) has even
@@ -63,14 +56,13 @@ more.
 
 ### Status
 
-The package is now available from [CRAN](http://cran.r-project.org). A few
-possible improvements, additions and next steps are listed in the
+The package has been available from [CRAN](http://cran.r-project.org) since
+the Spring of 2015 and starting to get some use. Possible improvements,
+additions and next steps are listed in the
 [TODO.md](https://github.com/eddelbuettel/drat/blob/master/inst/TODO.md)
 file.
 
-A few drat repositories are starting to appear (besides this one). Via a
-combination of looking at the direct forks as well as GitHub search, I became
-aware of these:
+A few drat repositories are starting to appear (besides this one). An incomplete list (looking at the direct forks as well as GitHub search):
 
  - [hrbrmstr](https://github.com/hrbrmstr/drat)
  - [yutannihilation](https://github.com/yutannihilation/drat)
@@ -80,10 +72,28 @@ aware of these:
  - [cboettig](https://github.com/cboettig/drat)
  - [shabbychef](https://github.com/shabbychef/drat)
  - [RcppCore](https://github.com/RcppCore/drat)
+ - [arilamstein](https://github.com/arilamstein/drat)
+ - [piccolbo](https://github.com/piccolbo/drat)
+ - [ghrr](https://github.com/ghrr/drat)
+
+The [rOpenSci](https://ropensci.org) project uses
+[drat](http://dirk.eddelbuettel.com/code/drat.html) to distribute their code
+and has written a
+[nice blog post](https://ropensci.org/blog/2015/08/04/a-drat-repository-for-ropensci/)
+about it.
+
+### Travis Integration
+
+Colin Gillespie has started to integrate
+[Travis CI](http://www.travis-ci.org) with drat, see his
+[dratTravis](https://github.com/csgillespie/dratTravis) repository for more
+details, and the contributed vignette
+[Combining Drat and Travis](http://eddelbuettel.github.io/drat/CombiningDratAndTravis.html)
 
 ### Author
 
-Dirk Eddelbuettel 
+Dirk Eddelbuettel, with contributions by Carl Boettiger, Sebastian Gibb,
+Colin Gillespie, Matt Jones, Thomas Leeper, Steven Pav and Jan Schulz.
 
 ### License
 
