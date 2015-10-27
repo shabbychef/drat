@@ -120,3 +120,13 @@ License: MIT + file LICENSE
 MD5sum: c807dd0cad6ac01fd479335b95fcff5b
 NeedsCompilation: no
 
+Package: xml2
+Version: 0.1.2.9100
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl
+License: GPL (>= 2)
+MD5sum: e157276ea29b48f1652d2a31789aeda5
+NeedsCompilation: yes
+
