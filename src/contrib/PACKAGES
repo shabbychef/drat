@@ -17,6 +17,13 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: ggbiplot
+Version: 0.55
+Depends: ggplot2, plyr, scales, grid
+License: GPL-2
+MD5sum: 720d8e8ca82d55d7acd7f7c1d648b27f
+NeedsCompilation: no
+
 Package: ggfortify
 Version: 0.0.3
 Depends: methods, grid, scales, proto, ggplot2
