@@ -21,7 +21,7 @@ Package: ggbiplot
 Version: 0.55
 Depends: ggplot2, plyr, scales, grid
 License: GPL-2
-MD5sum: 720d8e8ca82d55d7acd7f7c1d648b27f
+MD5sum: 9ac74c1f8e8eb7a39f658112e548b72e
 NeedsCompilation: no
 
 Package: ggfortify
@@ -126,4 +126,14 @@ Suggests: ggplot2
 License: MIT + file LICENSE
 MD5sum: c807dd0cad6ac01fd479335b95fcff5b
 NeedsCompilation: no
+
+Package: xml2
+Version: 0.1.2.9200
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl
+License: GPL (>= 2)
+MD5sum: 40332b027fcba40a9daa8581a918a32f
+NeedsCompilation: yes
 
