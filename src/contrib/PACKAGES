@@ -49,6 +49,15 @@ License: LGPL
 MD5sum: cba9662fa0bbe9ce0b81c497ec9e09c3
 NeedsCompilation: yes
 
+Package: madness
+Version: 0.0.0.5000
+Depends: R (>= 3.0.2)
+Imports: matrixcalc, expm, gtools, methods
+Suggests: testthat, knitr
+License: LGPL-3
+MD5sum: 5b9c6872950e8aebd19d72d8d6062461
+NeedsCompilation: no
+
 Package: MarkowitzR
 Version: 0.1502
 Depends: R (>= 3.0.2)
