@@ -51,12 +51,12 @@ MD5sum: cba9662fa0bbe9ce0b81c497ec9e09c3
 NeedsCompilation: yes
 
 Package: madness
-Version: 0.0.0.5530
+Version: 0.1.0.1000
 Depends: R (>= 3.0.2)
-Imports: matrixcalc, expm, gtools, methods
+Imports: matrixcalc, expm, methods
 Suggests: testthat, knitr
 License: LGPL-3
-MD5sum: 40a1408a5e750106a66dcc5222787203
+MD5sum: 2adc7fab89b284784dc5f6db174ed110
 NeedsCompilation: no
 
 Package: MarkowitzR
