@@ -137,6 +137,13 @@ License: MIT
 MD5sum: 9cacae5816720be3f8d05642b7edd6f2
 NeedsCompilation: no
 
+Package: shinysky
+Version: 0.1.2
+Depends: shiny, RJSONIO, plyr
+License: MIT + file LICENSE
+MD5sum: 5cae73171f3b28c8cdbb591cca99610d
+NeedsCompilation: no
+
 Package: shinyTable
 Version: 0.1.0
 Depends: R (>= 2.15.0)
