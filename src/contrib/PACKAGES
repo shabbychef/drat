@@ -28,8 +28,9 @@ Package: ggfortify
 Version: 0.0.3
 Depends: methods, grid, scales, proto, ggplot2
 Imports: dplyr, tidyr, gridExtra
-Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS, knitr, MASS, MSwM, nlme, strucchange, survival, timeSeries, tseries, vars, xts,
-                 zoo
+Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS,
+        knitr, MASS, MSwM, nlme, strucchange, survival, timeSeries,
+        tseries, vars, xts, zoo
 License: GPL-2
 MD5sum: 9c7869e25c9511d0f53092fc1d6f2b18
 NeedsCompilation: no
@@ -123,7 +124,8 @@ Package: SharpeR
 Version: 1.0.0.7000
 Depends: R (>= 3.0.0)
 Imports: matrixcalc, sadists (>= 0.2.0)
-Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat, sandwich, knitr
+Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat,
+        sandwich, knitr
 License: LGPL-3
 MD5sum: 8e6e5ae15e460ded12008a5f35151c83
 NeedsCompilation: no
