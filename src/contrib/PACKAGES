@@ -117,7 +117,7 @@ Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
 Suggests: shiny, testthat, ggplot2, xtable, knitr
 License: LGPL-3
-MD5sum: 09cc3ae6857b74ba6656b612def51765
+MD5sum: 04f4c88413beeccd2ef6ba1cbfa05e97
 NeedsCompilation: no
 
 Package: SharpeR
