@@ -3,7 +3,7 @@ Version: 1.1-2
 Imports: utils
 License: GPL (>= 2)
 OS_type: unix
-MD5sum: 67ad7464b678950b2ed6c35ce54eea73
+MD5sum: 29b7e7e63b8b6fb6d51aa154cb5ef6cf
 NeedsCompilation: yes
 
 Package: Defaults
@@ -76,12 +76,12 @@ MD5sum: e343117cd7f11c88de73e66d3db52a92
 NeedsCompilation: yes
 
 Package: PDQutils
-Version: 0.1.3
+Version: 0.1.4
 Depends: R (>= 3.0.2)
 Imports: orthopolynom, moments
 Suggests: ggplot2, reshape2, testthat, knitr
 License: LGPL-3
-MD5sum: 737b05ef90152a0f349ef9ac859989b3
+MD5sum: ddf4ebfce6536703fe51c60c772b12ba
 NeedsCompilation: no
 
 Package: profvis
@@ -111,12 +111,12 @@ MD5sum: 3c26df7bd933d88b5f81280754ff1f11
 NeedsCompilation: yes
 
 Package: sadists
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 3.0.2)
 Imports: PDQutils (>= 0.1.1), hypergeo, orthopolynom
 Suggests: shiny, testthat, ggplot2, xtable, knitr
 License: LGPL-3
-MD5sum: 0d0a7ac6731743c0d12b03eff4f4dd96
+MD5sum: 04f4c88413beeccd2ef6ba1cbfa05e97
 NeedsCompilation: no
 
 Package: SharpeR
