@@ -18,6 +18,15 @@ License: GPL (>= 2)
 MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
+Package: fromo
+Version: 0.1.2.5000
+Imports: Rcpp (>= 0.12.3), methods
+LinkingTo: Rcpp
+Suggests: testthat, moments, PDQutils, microbenchmark
+License: LGPL-3
+MD5sum: 525fb83900b4bbc365632ef8beb4fc9e
+NeedsCompilation: yes
+
 Package: ggbiplot
 Version: 0.55
 Depends: ggplot2, plyr, scales, grid
