@@ -19,12 +19,12 @@ MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
 Package: fromo
-Version: 0.1.2.5000
+Version: 0.1.3
 Imports: Rcpp (>= 0.12.3), methods
 LinkingTo: Rcpp
 Suggests: testthat, moments, PDQutils, microbenchmark
 License: LGPL-3
-MD5sum: 525fb83900b4bbc365632ef8beb4fc9e
+MD5sum: fb579791cdfebe43fb3647bcdb1d8063
 NeedsCompilation: yes
 
 Package: ggbiplot
