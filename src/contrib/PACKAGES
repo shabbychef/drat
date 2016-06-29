@@ -36,6 +36,14 @@ License: LGPL-3
 MD5sum: fb579791cdfebe43fb3647bcdb1d8063
 NeedsCompilation: yes
 
+Package: gganimate
+Version: 0.1
+Imports: plyr, ggplot2, grid, animation, base64enc, htmltools, withr
+Suggests: knitr, rmarkdown, gapminder, testthat
+License: GPL-2
+MD5sum: 0b32996b26f3f7ae2db1439837d6e518
+NeedsCompilation: no
+
 Package: ggbiplot
 Version: 0.55
 Depends: ggplot2, plyr, scales, grid
