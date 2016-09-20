@@ -87,12 +87,12 @@ MD5sum: 344120627c40949b5ca37c890de95e22
 NeedsCompilation: no
 
 Package: MarkowitzR
-Version: 0.1502
+Version: 0.9900.0
 Depends: R (>= 3.0.2)
 Imports: matrixcalc, sandwich, gtools
 Suggests: SharpeR, testthat, knitr
 License: LGPL-3
-MD5sum: d38b5cd7508644f4282670f2501bbee8
+MD5sum: 394deb3ff52955156bcee0334014ca68
 NeedsCompilation: no
 
 Package: ngram
