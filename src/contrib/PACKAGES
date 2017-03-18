@@ -104,12 +104,12 @@ MD5sum: e343117cd7f11c88de73e66d3db52a92
 NeedsCompilation: yes
 
 Package: PDQutils
-Version: 0.1.5
+Version: 0.1.6
 Depends: R (>= 3.0.2)
 Imports: orthopolynom, moments
 Suggests: ggplot2, reshape2, testthat, knitr
 License: LGPL-3
-MD5sum: 23434b6b57bb0563873d25e135b2b648
+MD5sum: 450745b6b92b13d660d9614cfb2fffbb
 NeedsCompilation: no
 
 Package: profvis
