@@ -1,10 +1,10 @@
 Package: BWStest
-Version: 0.2.0
+Version: 0.2.1
 Imports: memoise, Rcpp (>= 0.12.3)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: f25134e5e0ff362ecc88433704ca763a
+MD5sum: 9606d9c3ce4d7bd104554d7cb23eb13c
 NeedsCompilation: yes
 
 Package: colorout
