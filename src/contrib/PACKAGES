@@ -4,7 +4,7 @@ Imports: memoise, Rcpp (>= 0.12.3)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 9606d9c3ce4d7bd104554d7cb23eb13c
+MD5sum: 14785d64bcd45c62a021fc0952a0267c
 NeedsCompilation: yes
 
 Package: colorout
