@@ -78,12 +78,12 @@ MD5sum: cba9662fa0bbe9ce0b81c497ec9e09c3
 NeedsCompilation: yes
 
 Package: madness
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 3.2.0)
-Imports: matrixcalc, expm, methods
+Imports: Matrix, matrixcalc, expm, methods
 Suggests: testthat, R.rsp, knitr
 License: LGPL-3
-MD5sum: 95d8a8f40bd48bb81c43b27a5b6faeb3
+MD5sum: 016b1e8ad5b9df68411a5ace4a62a8ac
 NeedsCompilation: no
 
 Package: MarkowitzR
