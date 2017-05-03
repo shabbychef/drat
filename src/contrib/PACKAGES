@@ -221,3 +221,12 @@ License: GPL (>= 2)
 MD5sum: 40332b027fcba40a9daa8581a918a32f
 NeedsCompilation: yes
 
+Package: zipper
+Version: 0.1.0
+Imports: Rcpp (>= 0.12.3)
+LinkingTo: Rcpp
+Suggests: testthat
+License: LGPL-3
+MD5sum: fcdc6704f9a9b841ad5726bc1669f876
+NeedsCompilation: yes
+
