@@ -227,6 +227,6 @@ Imports: Rcpp (>= 0.12.3)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: fcdc6704f9a9b841ad5726bc1669f876
+MD5sum: cd729c4eaba135959a1447c92d7d8211
 NeedsCompilation: yes
 
