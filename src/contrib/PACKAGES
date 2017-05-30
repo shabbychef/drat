@@ -28,12 +28,12 @@ MD5sum: 2d0370983f64a0dca74349f666e1d7ec
 NeedsCompilation: no
 
 Package: fromo
-Version: 0.1.3.3001
+Version: 0.1.3.3200
 Imports: Rcpp (>= 0.12.3), methods
 LinkingTo: Rcpp
 Suggests: testthat, moments, PDQutils, microbenchmark
 License: LGPL-3
-MD5sum: fa3eff99afbb588cb5e93a53479e82c0
+MD5sum: a1bc956a97032bf023ccecf22b6f8f5a
 NeedsCompilation: yes
 
 Package: gganimate
