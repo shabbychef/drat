@@ -12,17 +12,23 @@
 ##'
 ##' @title Prune repository from older copies of packages
 ##' @param repopath Character variable with the path to the repo;
-##' defaults to the value of the \dQuote{dratRepo} option with
-##' \dQuote{"~/git/drat"} as fallback
-##' @param type Character variable for the type of repository, so far \dQuote{source}
-##' @param pkg Optional character variable specifying a package name, whose
-##' older versions should be pruned. If missing (the default), pruning is 
-##' performed on all packages.
-##' @param remove Logical variable indicating whether files should be removed 
+##'  defaults to the value of the \dQuote{dratRepo} option with
+##'  \dQuote{"~/git/drat"} as fallback
+##' @param type Character variable for the type of repository, so far
+##'  \dQuote{source}
+##' @param pkg Optional character variable specifying a package name,
+##'  whose older versions should be pruned. If missing (the
+##'  default), pruning is performed on all packages.
+##' @param remove Character or logical variable indicating whether
+##'  files should be removed. Nothing happens if \sQuote{FALSE}. If
+##'  different from (logical) \sQuote{FALSE} and equal to character
+##'  \dQuote{git} files are removed via \code{git rm} else via a
+##'  straight file deletion.
 ##' @return A data frame describing the repository is returned
-##' containing columns with columns \dQuote{file}, \dQuote{package}
-##' (just the name), \dQuote{version} and a logical variable
-##' \dQuote{newest} indicating if the package can be removed.
+##'  containing columns with columns \dQuote{file},
+##'  \dQuote{package} (just the name), \dQuote{version} and a
+##'  logical variable \dQuote{newest} indicating if the package can
+##'  be removed.
 ##' @author Dirk Eddelbuettel
 pruneRepo <- function(repopath=getOption("dratRepo", "~/git/drat"),
                       type="source", 
@@ -43,7 +49,7 @@ pruneRepo <- function(repopath=getOption("dratRepo", "~/git/drat"),
     pkgs <- sapply(strsplit(files, "_", fixed=TRUE), "[", 1L)
 
     ## versions is then the remainder to the right -- FIXME for something better
-    verstxt <- gsub("[a-zA-Z0-9]*_", "", noextfiles)
+    verstxt <- gsub("[a-zA-Z0-9\\.]*_", "", noextfiles)
 
     ## parse into proper version objects -- thanks, base R!
     vers <- package_version(verstxt)
