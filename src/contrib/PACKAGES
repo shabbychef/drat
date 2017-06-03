@@ -15,6 +15,15 @@ OS_type: unix
 MD5sum: 29b7e7e63b8b6fb6d51aa154cb5ef6cf
 NeedsCompilation: yes
 
+Package: datapasta
+Version: 2.0.1
+Depends: backports
+Imports: readr (>= 1.0.0), clipr (>= 0.3.0), rstudioapi (>= 0.6)
+Suggests: tibble (>= 1.2), testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 48e67544d4229915f5a468b217194f46
+NeedsCompilation: no
+
 Package: Defaults
 Version: 1.1-1
 License: GPL (>= 2)
