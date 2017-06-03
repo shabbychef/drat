@@ -2,6 +2,8 @@
 
 Drat R Archive Template
 
+![DRAT](tools/drat.png)
+
 ### Background
 
 The R package ecosystem is one of the cornerstones of the success seen by R.
