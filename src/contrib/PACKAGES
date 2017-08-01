@@ -1,3 +1,9 @@
+Package: aqfb.data
+Version: 0.1.0
+License: LGPL-3
+MD5sum: 1cc3209f254035520d520ef1955c4555
+NeedsCompilation: no
+
 Package: BWStest
 Version: 0.2.1
 Imports: memoise, Rcpp (>= 0.12.3)
@@ -68,6 +74,15 @@ Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS, knitr, MA
                  zoo
 License: GPL-2
 MD5sum: 9c7869e25c9511d0f53092fc1d6f2b18
+NeedsCompilation: no
+
+Package: ggjoy
+Version: 0.1
+Depends: R (>= 3.3.0), ggplot2 (>= 2.1.0),
+Imports: grid (>= 3.0.0), plyr (>= 1.8.2),
+Suggests: knitr
+License: GPL-2
+MD5sum: 397f57fa7dbe140e21e204729d3a21a9
 NeedsCompilation: no
 
 Package: ggthemr
@@ -225,6 +240,15 @@ Package: slidifyLibraries
 Version: 0.3.1
 License: MIT
 MD5sum: 27ad70238a2ad892eb696dafa8b4f34c
+NeedsCompilation: no
+
+Package: visdat
+Version: 0.0.7.9000
+Depends: R (>= 3.2.2)
+Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6), magrittr, stats
+Suggests: testthat, knitr, rmarkdown, vdiffr
+License: MIT + file LICENSE
+MD5sum: f6ff9d54df84f059feb0a8866d7a9522
 NeedsCompilation: no
 
 Package: wesanderson
