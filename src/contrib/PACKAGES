@@ -71,8 +71,9 @@ Package: ggfortify
 Version: 0.0.3
 Depends: methods, grid, scales, proto, ggplot2
 Imports: dplyr, tidyr, gridExtra
-Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS, knitr, MASS, MSwM, nlme, strucchange, survival, timeSeries, tseries, vars, xts,
-                 zoo
+Suggests: testthat, cluster, changepoint, dlm, fGarch, forecast, KFAS,
+        knitr, MASS, MSwM, nlme, strucchange, survival, timeSeries,
+        tseries, vars, xts, zoo
 License: GPL-2
 MD5sum: 9c7869e25c9511d0f53092fc1d6f2b18
 NeedsCompilation: no
@@ -184,7 +185,8 @@ Package: SharpeR
 Version: 1.1.0
 Depends: R (>= 3.0.0)
 Imports: matrixcalc, sadists (>= 0.2.0)
-Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat, sandwich, knitr
+Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat,
+        sandwich, knitr
 License: LGPL-3
 MD5sum: f53c45f2d7ea99380632c69af3e56aaf
 NeedsCompilation: no
@@ -243,10 +245,18 @@ License: MIT
 MD5sum: 27ad70238a2ad892eb696dafa8b4f34c
 NeedsCompilation: no
 
+Package: SPYvsSPY
+Version: 0.1.0
+Depends: R (>= 2.10)
+License: LGPL-3
+MD5sum: ff83fa29d7d93b07ba6936dcf9f29d96
+NeedsCompilation: no
+
 Package: visdat
 Version: 0.0.7.9000
 Depends: R (>= 3.2.2)
-Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6), magrittr, stats
+Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6),
+        magrittr, stats
 Suggests: testthat, knitr, rmarkdown, vdiffr
 License: MIT + file LICENSE
 MD5sum: f6ff9d54df84f059feb0a8866d7a9522
