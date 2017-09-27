@@ -52,6 +52,15 @@ License: LGPL-3
 MD5sum: 1e31b24848ff1ad308e2aad256dfb813
 NeedsCompilation: yes
 
+Package: ggallin
+Version: 0.1.0.0001
+Depends: ggplot2 (>= 2.2.1)
+Imports: scales, grid
+Suggests: knitr, testthat
+License: LGPL-3
+MD5sum: 77e2ce93afd9a4c6b1fb52d311ecdb33
+NeedsCompilation: no
+
 Package: gganimate
 Version: 0.1
 Imports: plyr, ggplot2, grid, animation, base64enc, htmltools, withr
