@@ -58,7 +58,7 @@ Depends: ggplot2 (>= 2.2.1)
 Imports: scales, grid
 Suggests: knitr, testthat
 License: LGPL-3
-MD5sum: 35a465385267d3b0caf1a329d6fd5d67
+MD5sum: cd51107198ca2d7c9d36a84f5b32ed33
 NeedsCompilation: no
 
 Package: gganimate
