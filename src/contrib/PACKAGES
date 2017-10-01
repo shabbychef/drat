@@ -53,12 +53,12 @@ MD5sum: 1e31b24848ff1ad308e2aad256dfb813
 NeedsCompilation: yes
 
 Package: ggallin
-Version: 0.1.0.0005
+Version: 0.1.1
 Depends: ggplot2 (>= 2.2.1)
 Imports: scales, grid
 Suggests: knitr, testthat
 License: LGPL-3
-MD5sum: a45e6380aa5ca61989867e124aa8e154
+MD5sum: c8e60a2fe9383b87ca5fb2d9f9e5692b
 NeedsCompilation: no
 
 Package: gganimate
