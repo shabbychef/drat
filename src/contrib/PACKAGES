@@ -138,6 +138,15 @@ License: LGPL-3
 MD5sum: 394deb3ff52955156bcee0334014ca68
 NeedsCompilation: no
 
+Package: mazealls
+Version: 0.0.0.0002
+Depends: R (>= 3.0.2)
+Imports: TurtleGraphics
+Suggests: testthat, knitr
+License: LGPL-3
+MD5sum: 3038cfe06c90374ed577c3a5dfd3ec50
+NeedsCompilation: no
+
 Package: ngram
 Version: 2.0
 Depends: R (>= 2.14.0)
