@@ -139,12 +139,12 @@ MD5sum: 394deb3ff52955156bcee0334014ca68
 NeedsCompilation: no
 
 Package: mazealls
-Version: 0.0.0.0002
+Version: 0.0.0.0004
 Depends: R (>= 3.0.2)
 Imports: TurtleGraphics
 Suggests: testthat, knitr
 License: LGPL-3
-MD5sum: 3038cfe06c90374ed577c3a5dfd3ec50
+MD5sum: b747faa53490be7a760957268653c768
 NeedsCompilation: no
 
 Package: ngram
