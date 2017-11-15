@@ -144,7 +144,7 @@ Depends: R (>= 3.0.2)
 Imports: TurtleGraphics
 Suggests: testthat, knitr
 License: LGPL-3
-MD5sum: 49057a92e2a17a27f7031a076ad9ba66
+MD5sum: f551e4920baa55f57340e65ca8b33444
 NeedsCompilation: no
 
 Package: ngram
