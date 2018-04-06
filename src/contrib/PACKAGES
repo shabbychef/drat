@@ -197,6 +197,15 @@ License: GPL (>= 2)
 MD5sum: 296834fd40efa953b8c926f095539afb
 NeedsCompilation: no
 
+Package: roxyPackage
+Version: 0.05-3
+Depends: R (>= 2.9.0),methods,roxygen2,XiMpLe (>= 0.03-20)
+Imports: tools
+Suggests: testthat
+License: GPL (>= 3)
+MD5sum: d5581faaf235c68f8b03b4a23c70ddb1
+NeedsCompilation: no
+
 Package: sadists
 Version: 0.2.3
 Depends: R (>= 3.0.2)
