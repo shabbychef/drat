@@ -2,7 +2,7 @@ Package: aqfb.data
 Version: 0.1.3
 Depends: R (>= 2.10), xts
 License: LGPL-3
-MD5sum: d4ade787fc93cff9797e4c09ea4d60d8
+MD5sum: 2dadab847796a230dc19ebf797442614
 NeedsCompilation: no
 
 Package: BWStest
