@@ -21,7 +21,7 @@ Imports: shinythemes, dplyr, tidyr, tibble, ggplot2, magrittr, Ternary,
         forcats, DT
 Suggests: testthat
 License: LGPL-3
-MD5sum: 2bc3fa772c4bb5b06e1046cddcff9c48
+MD5sum: a42305d224170f36fbf83f08379948c3
 NeedsCompilation: no
 
 Package: colorout
