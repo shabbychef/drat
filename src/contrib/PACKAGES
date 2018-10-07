@@ -235,7 +235,7 @@ Imports: matrixcalc, methods, sadists (>= 0.2.0)
 Suggests: xtable, xts, timeSeries, quantmod, MASS, TTR, testthat,
         sandwich, knitr
 License: LGPL-3
-MD5sum: 635e699237e4044e743986efade7c06e
+MD5sum: 4fbd2701e988791848b1ec98290de94a
 NeedsCompilation: no
 
 Package: shinyAce
