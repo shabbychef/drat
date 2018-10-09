@@ -6,12 +6,12 @@ MD5sum: 2dadab847796a230dc19ebf797442614
 NeedsCompilation: no
 
 Package: BWStest
-Version: 0.2.1
+Version: 0.2.2
 Imports: memoise, Rcpp (>= 0.12.3)
 LinkingTo: Rcpp
 Suggests: testthat
 License: LGPL-3
-MD5sum: 14785d64bcd45c62a021fc0952a0267c
+MD5sum: 3b4c82fd1d670f28d48d60c79635265e
 NeedsCompilation: yes
 
 Package: cocktailApp
