@@ -131,13 +131,13 @@ MD5sum: 543a297636bf9c0d798832eed28df113
 NeedsCompilation: yes
 
 Package: madness
-Version: 0.2.5
+Version: 0.2.6
 Depends: R (>= 3.2.0)
 Imports: Matrix, matrixcalc, expm, methods
 Suggests: testthat, dplyr, tidyr, lubridate, SharpeR, sandwich,
         formatR, knitr
 License: LGPL-3
-MD5sum: c46ec6a74a01d9dc23f093db6c410440
+MD5sum: b4433defc4fc3015bfc20826d29619f6
 NeedsCompilation: no
 
 Package: MarkowitzR
