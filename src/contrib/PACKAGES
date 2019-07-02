@@ -15,13 +15,13 @@ MD5sum: 3b4c82fd1d670f28d48d60c79635265e
 NeedsCompilation: yes
 
 Package: cocktailApp
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.0.2), shiny
-Imports: shinythemes, dplyr, tidyr, tibble, ggplot2, magrittr, Ternary,
+Imports: shinythemes, dplyr, tidyr, tibble, ggplot2, magrittr, ggtern,
         forcats, DT
 Suggests: testthat
 License: LGPL-3
-MD5sum: a42305d224170f36fbf83f08379948c3
+MD5sum: b39e798b7293d5c9c5553e191185e566
 NeedsCompilation: no
 
 Package: colorout
