@@ -167,14 +167,14 @@ MD5sum: e343117cd7f11c88de73e66d3db52a92
 NeedsCompilation: yes
 
 Package: ohenery
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp (>= 0.12.3), maxLik, magrittr, methods, dplyr
 LinkingTo: Rcpp
 Suggests: rlang, tidyr, forcats, microbenchmark, testthat, numDeriv,
-        knitr
+        ggplot2, scales, knitr
 License: LGPL-3
-MD5sum: ab14fee0aa26b0c58622c694e0edc5b3
+MD5sum: 2577bfdd14bf911926572f0abab8923f
 NeedsCompilation: yes
 
 Package: PDQutils
